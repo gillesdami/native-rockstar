@@ -1,0 +1,5 @@
+(!out:OK)
+Put nothing into Var
+Put nothing into VarB
+If Var is VarB
+Say "OK"

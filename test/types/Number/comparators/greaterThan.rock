@@ -1,0 +1,7 @@
+(!out:OK)
+If -1 is greater than -1
+Say "-1 is greater than -1 should be falsy"
+
+If 0 is greater than -1
+If 0.1 is greater than 0
+Say "OK"

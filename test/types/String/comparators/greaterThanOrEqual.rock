@@ -1,0 +1,11 @@
+(!out:OK)
+If "aa" is as great as "ab"
+Say "aa is as great as ab"
+
+If "ab" is as great as "aa"
+If "aa" is as great as "a"
+If "string" is as great as "string"
+Say "OK"
+
+
+

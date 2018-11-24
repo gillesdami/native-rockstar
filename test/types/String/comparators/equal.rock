@@ -1,0 +1,45 @@
+If 0 is ""
+Say "0 is '' should be falsy"
+
+If 1 is ""
+Say "1 is '' should be falsy"
+
+If "" is true
+Say "'' is true should be falsy"
+
+If "" is false
+Say "'' is false should be falsy"
+
+If 1 is "string"
+Say "1 is 'string' should be falsy"
+
+If 0 is "string"
+Say "0 is 'string' should be falsy"
+
+If "" is ""
+(!out:0)
+Say "0"
+
+If "string" is "string"
+(!out:1)
+Say "1"
+
+If "true" is true
+(!out:2)
+Say "2"
+
+If "false" is false
+(!out:3)
+Say "3"
+
+If 1 is "1"
+(!out:4)
+Say "4"
+
+If -1 is "-1"
+(!out:5)
+Say "5"
+
+If 1.1 is "1.1"
+(!out:6)
+Say "6"

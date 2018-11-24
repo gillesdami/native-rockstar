@@ -1,0 +1,5 @@
+(!out:0.5)
+Put 1 minus 1 into Var
+Put Var minus -1 into Var
+Put Var minus 0.5 into Var
+Say Var

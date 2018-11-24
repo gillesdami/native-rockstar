@@ -1,0 +1,8 @@
+Put false into Var
+Put true into VarB
+Knock Var down
+Knock VarB down
+Say Var
+(!out:true)
+Say VarB
+(!out:false)

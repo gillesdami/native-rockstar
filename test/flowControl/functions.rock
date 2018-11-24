@@ -1,0 +1,7 @@
+(!out:OK)
+Multiply takes VarA and VarB
+Put VarA times VarB into VarA
+Give back VarA
+
+If Multiply taking 2, 3 is 6
+Say "OK"

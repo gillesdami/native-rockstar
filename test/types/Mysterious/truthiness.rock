@@ -1,0 +1,5 @@
+(!out:OK)
+If Var
+Say "NOT OK"
+
+Say "OK"

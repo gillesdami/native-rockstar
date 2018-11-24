@@ -1,0 +1,8 @@
+node_modules
+
+# outs
+out
+rockstar-parser.js
+
+# ide
+.vscode

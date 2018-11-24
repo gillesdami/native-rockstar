@@ -1,0 +1,49 @@
+If 0 is 1
+Say "0 is 1 should be falsy"
+
+If 1 is 1.1
+Say "1 is 1.1 should be falsy"
+
+If 0 is true
+Say "0 is true should be falsy"
+
+If 1 is false
+Say "1 is false should be falsy"
+
+If 1 is "string"
+Say "1 is 'string' should be falsy"
+
+If 0 is "string"
+Say "0 is 'string' should be falsy"
+
+If 0 is 0
+(!out:0 is 0)
+Say "0 is 0"
+
+If 1 is 1
+(!out:1 is 1)
+Say "1 is 1"
+
+If 0 is nothing
+(!out:0 is nothing)
+Say "0 is nothing"
+
+If 0 is false
+(!out:0 is false)
+Say "0 is false"
+
+If 1 is true
+(!out:1 is true)
+Say "1 is true"
+
+If 1 is "1"
+(!out:1 is '1')
+Say "1 is '1'"
+
+If -1 is "-1"
+(!out:-1 is '-1')
+Say "-1 is '-1'"
+
+If 1.1 is "1.1"
+(!out:1.1 is '1.1')
+Say "1.1 is '1.1'"

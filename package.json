@@ -1,0 +1,20 @@
+{
+  "name": "native-rockstar",
+  "version": "1.0.0",
+  "description": "Transpile rockstar to C++",
+  "main": "index.js",
+  "author": "Damien GILLES",
+  "license": "MIT",
+  "dependencies": {
+    "mocha": "^5.2.0",
+    "pegjs": "^0.10.0",
+    "pegjs-backtrace": "^0.1.2"
+  },
+  "scripts": {
+    "build": "pegjs --trace rockstar-parser.peg",
+    "build-lib": "make all",
+    "transpile": "node index.js",
+    "compile": "g++ out/result.cc build/rock.a -o out/bin/result.exe -std=c++17",
+    "test": "mocha --timeout 10000"
+  }
+}

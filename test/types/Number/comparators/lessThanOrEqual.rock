@@ -1,0 +1,14 @@
+If -1 is as little as -1.1
+Say "-1 is as little as -1.1 should be falsy"
+
+If -1 is as little as 0
+(!out:1)
+Say "1"
+
+If 0 is as little as 0.1
+(!out:2)
+Say "2"
+
+If -1 is as little as -1
+(!out:3)
+Say "3"

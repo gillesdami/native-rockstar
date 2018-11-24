@@ -1,0 +1,5 @@
+(!out:OK)
+Put "O" into Var
+Put "K" into VarB
+Put Var plus VarB into VarC
+Say VarC

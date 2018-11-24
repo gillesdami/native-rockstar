@@ -1,0 +1,4 @@
+(!code:1)
+Put nothing into VarB
+If VarB is less than VarB
+Say "NOT OK"

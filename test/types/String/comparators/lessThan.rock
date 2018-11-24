@@ -1,0 +1,10 @@
+If "string" is less than "string"
+Say "string is less than 'string' should be falsy"
+
+If "aa" is less than "ab"
+(!out:1)
+Say "1"
+
+If "a" is less than "aa"
+(!out:2)
+Say "2"

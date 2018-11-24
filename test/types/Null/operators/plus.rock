@@ -1,0 +1,5 @@
+(!code:1)
+Put nothing into Var
+Put nothing into VarB
+Put Var plus VarB into VarC
+Say VarC

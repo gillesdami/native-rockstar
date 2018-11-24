@@ -1,0 +1,7 @@
+(!out:OK)
+If "string" is greater than "string"
+Say "string is greater than 'string' should be falsy"
+
+If "ab" is greater than "aa"
+If "aa" is greater than "a"
+Say "OK"

@@ -1,0 +1,18 @@
+Put 0 into Var
+If Var
+Say "NOT OK"
+
+Put 1 into Var
+If Var
+(!out:1OK)
+Say "1OK"
+
+Put -1 into Var
+If Var
+(!out:-1OK)
+Say "-1OK"
+
+Put 1.1 into Var
+If Var
+(!out:1.1OK)
+Say "1.1OK"

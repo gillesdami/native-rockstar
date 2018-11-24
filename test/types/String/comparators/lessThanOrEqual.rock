@@ -1,0 +1,14 @@
+If "ab" is as little as "aa"
+Say "ab is as little as aa"
+
+If "aa" is as little as "ab"
+(!out:1)
+Say "1"
+
+If "a" is as little as "aa"
+(!out:2)
+Say "2"
+
+If "string" is as little as "string"
+(!out:3)
+Say "3"

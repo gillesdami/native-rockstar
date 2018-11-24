@@ -1,0 +1,7 @@
+(!out:OK)
+
+If true
+Say "OK"
+
+If false
+Say "NOT OK"

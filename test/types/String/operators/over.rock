@@ -1,0 +1,4 @@
+(!code:1)
+Put "string" into Var
+Put "string" into VarB
+Put Var over VarB into VarC
