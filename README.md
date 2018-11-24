@@ -43,7 +43,7 @@ docker build . -t native-rockstar
 docker run --rm native-rockstar yarn test
 ```
 
-To assert that the it executed as excepted we add special comments,
+Special comments starting with a "!" are used as testing rules,
 for example:
 
 ```rock
@@ -53,8 +53,8 @@ Listen to Var
 Say Var
 ```
 
-The tester will push "hello" in stdin and the first line means
-that stdout must contain hello for the code the test to be sucessfull.
+The test runner will push "hello" in stdin and the first line means
+that stdout must contain "hello" for the test to be sucessfull.
 
 ## Example
 
@@ -152,7 +152,7 @@ say((vars>"world"));
 
 ## Contrib
 
-Contribs are welcome, if you find a bug please quote the rockstar docs and if you have a PR add a relevant test, we aim to follow the types definition from [issue/97](https://github.com/dylanbeattie/rockstar/issues/97).
+Contribs are welcome, if you find a bug please quote the rockstar docs and if you have a PR add a relevant test. We aim to follow the types definition from [issue/97](https://github.com/dylanbeattie/rockstar/issues/97).
 
 ## Misc
 
