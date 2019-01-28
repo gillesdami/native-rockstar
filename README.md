@@ -14,7 +14,7 @@ docker build . -t native-rockstar
 docker run --rm -v $(pwd)/out:/app/out -v $(pwd)/input.rock:/app/input.rock native-rockstar /bin/bash -c "yarn transpile input.rock && yarn compile"
 ```
 
-This should output the parsed rockstar code 'out/parsed.txt', the transpiled code 'out/result.cc' and a linux binary 'out/bin/result.exe'.
+This should output the parsed rockstar code 'out/parsed.txt', the transpiled code 'out/result.cc' and a linux binary 'out/result.exe'.
 
 ### Other
 
