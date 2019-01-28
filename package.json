@@ -14,7 +14,7 @@
     "build": "pegjs --trace rockstar-parser.peg",
     "build-lib": "make all",
     "transpile": "node index.js",
-    "compile": "g++ out/result.cc build/rock.a -o out/bin/result.exe -std=c++17",
+    "compile": "g++ out/result.cc build/rock.a -o out/result.exe -std=c++17",
     "test": "mocha --timeout 10000"
   }
 }
